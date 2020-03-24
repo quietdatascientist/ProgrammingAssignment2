@@ -32,7 +32,3 @@ cacheSolve <- function(x, ...) {
         x$setinv(minv)
         minv
 }
-m<- matrix(c(1,3,4,5),nrow=2,ncol=2)
-m
-mc<- makeCacheMatrix(m)
-cacheSolve(mc)
